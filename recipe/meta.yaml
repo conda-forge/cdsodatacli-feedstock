@@ -31,6 +31,9 @@ requirements:
     - shapely
     - tqdm
     - pyyaml
+    - geodatasets
+    - cartopy
+    - python-dotenv
 
 test:
   imports:
