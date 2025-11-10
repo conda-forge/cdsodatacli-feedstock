@@ -1,5 +1,5 @@
 {% set name = "cdsodatacli" %}
-{% set version = "2025.10.22.post2" %}
+{% set version = "2025.11.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cdsodatacli-{{ version }}.tar.gz
-  sha256: 97a92795a7af7ba6e3ad795cdda96199f770f8107cf3c5ebd6c72ff23940348a
+  sha256: e5746cf9dac3ebb0bbf99d65872362359f2719e9724f9ee677cf6df1a6009a57
 
 build:
   entry_points:
