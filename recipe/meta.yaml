@@ -34,6 +34,7 @@ requirements:
     - geodatasets
     - cartopy
     - python-dotenv
+    - boto3
 
 test:
   imports:
@@ -41,7 +42,7 @@ test:
   commands:
     - pip check
     - queryCDS --help
-    - downloadFromCDS --help
+    - downloadMultiThreadMultiUserS3 --help
   requires:
     - pip
     - python {{ python_min }}
